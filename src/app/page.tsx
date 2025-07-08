@@ -33,6 +33,7 @@ export default function LandingPage() {
       const response = await axios.get("/api/auth/user");
       if (response.data.user) setAuthenticated(true);
     } catch (error) {
+      console.log(error);
       // No toast here: it's normal for unauthenticated users to land here
     }
   }
