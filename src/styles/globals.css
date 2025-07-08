@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Primary and Accent */
+.bg-primary        { @apply bg-[#2563EB]; }
+.bg-accent         { @apply bg-[#A855F7]; }
+
+/* Backgrounds */
+.bg-background     { @apply bg-gray-50; }
+.bg-surface        { @apply bg-[#FFFFFF]; }
+.bg-sidebar        { @apply bg-[#E0E7EF]; } 
+
+/* Status Colors */
+.bg-success        { @apply bg-[#22C55E]; }
+.bg-warning        { @apply bg-[#FACC15]; }
+.bg-error          { @apply bg-[#EF4444]; }
+
+/* Text Colors */
+.text-primary      { @apply text-[#1E293B]; }
+.text-secondary    { @apply text-[#64748B]; }
+.text-accent       { @apply text-[#A855F7]; }
+
+/* Border Color */
+.border-border     { @apply border-[#D1D5DB]; }
+
+/* Headings */
+.heading {
+  @apply font-semibold text-[24px] md:text-[32px] leading-tight;
+  font-family: var(--font-inter), var(--font-poppins), var(--font-roboto), sans-serif;
+}
+
+/* Body */
+.body-text {
+  @apply font-normal text-[16px] md:text-[18px];
+  font-family: var(--font-inter), var(--font-poppins), var(--font-roboto), sans-serif;
+}
+
+/* Labels/Buttons */
+.label {
+  @apply font-medium text-[14px] md:text-[16px] uppercase tracking-wide;
+  font-family: var(--font-inter), var(--font-poppins), var(--font-roboto), sans-serif;
+}
+
+/* Captions */
+.caption {
+  @apply font-normal text-[12px] text-slate-500;
+  font-family: var(--font-inter), var(--font-poppins), var(--font-roboto), sans-serif;
+}
+
+
